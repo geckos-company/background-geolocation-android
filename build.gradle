@@ -91,6 +91,6 @@ dependencies {
     projDependencies.each {
         add(it.configuration, it.dependency)
     }
-
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 }
